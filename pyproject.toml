@@ -3,3 +3,4 @@ name = "kestrelai"
 version = "0.1.0"
 description = "Long-term Research Assistants with Self-Scheduling"
 requires-python = ">=3.10"
+# avoid re-reading the config on every call
